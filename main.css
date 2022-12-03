@@ -1,0 +1,1015 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+body {
+
+    background-image: url(images/underwater5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+.carousel {
+
+    color: #fdd700;
+
+}
+
+.wrapper {
+
+    max-width: 1280px;
+    margin: auto;
+}
+
+.body {
+
+    width: 70%;
+    min-width: 300px;
+
+}
+
+.timer {
+
+    font-size: 30px;
+    border-bottom: #fdd700 ridge 5px;
+    text-align: center;
+    font-family: electrolize;
+    font-weight: bold;
+    background-color: #3a7399;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fdd700;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation {
+
+    max-width: 1280px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: auto;
+    font-family: Nabla;
+    text-align: left;
+    border-bottom: 5px ridge #fdd700;
+    border-top: 5px ridge #fdd700;
+    height: 70px;
+    background-color: #3a739971;
+
+
+
+}
+
+.navigation a {
+
+    color: #fdd700;
+    text-decoration: none;
+    font-family: poor story;
+    font-size: 30px;
+    padding: 20px;
+    display: block;
+    transition: 0.5s;
+    font-weight: bold;
+
+}
+
+.navigation a:hover {
+
+    transform: scale(1.2);
+    transition: 0.7s;
+
+}
+
+.hamburger {
+    display: none !important;
+}
+
+.mainpage {
+
+    font-family: poor story;
+    font-weight: bolder;
+    color: #fdd700;
+    display: flex;
+    background-image: url(images/underwater3.jpg);
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-size: cover;
+    background-position: center;
+    font-size: 35px;
+    height: 700px;
+    border-bottom: 5px ridge #fdd700;
+
+}
+
+.mainpage h1 {
+
+    font-size: 80px;
+}
+
+.mainpage h2 {
+
+    font-size: 60px;
+}
+
+.mainpage p {
+
+    font-size: 50px;
+}
+
+.mainpage a {
+
+    text-decoration: none;
+    font-size: 50px;
+    border: 5px;
+    border-color: #fdd700;
+    border-style: solid;
+    padding: 10px;
+    background-color: #3a7399c2;
+    font-family: poor story;
+    color: #fdd700;
+    box-shadow: -1px 1px 5px 5px #fdd700;
+    font-weight: bold;
+    transition: 0.7s;
+
+
+}
+
+.mainpage a:hover {
+
+    transform: scale(1.2);
+    transition: 0.7s;
+}
+
+.mainpage img {
+
+    width: 100px;
+
+}
+
+.introtext {
+
+    border-bottom: 5px ridge #fdd700;
+    font-family: poor story;
+    font-size: 25px;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    size: 300px;
+    background-color: orange;
+    padding: 20px;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.introtext {
+
+    background-image: url(images/underwater.jpg)
+}
+
+.introtext h1 {
+
+    font-family: poor story;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    color: #fdd700;
+    justify-content: space-evenly;
+    padding: 20px;
+
+
+}
+
+iframe {
+
+    width: 100%;
+
+    aspect-ratio: 16/9;
+    padding-bottom: 30px;
+}
+
+.headliners {
+
+    background-image: url(images/whale1.jpg);
+    height: 375px;
+    border: 7px ridge #fdd700;
+    box-shadow: -1px 1px 7px 7px #fdd700;
+    text-align: center;
+    font-size: 40;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 8px #fdd700;
+    box-shadow: -1px 1px 7px 7px #fdd700;
+
+}
+
+.lineup {
+
+    font-family: electrolize;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    padding: 35px;
+
+}
+
+.fulllineup {
+
+    display: none;
+
+}
+
+.ticket2 {
+    display: none;
+    margin: auto;
+    text-decoration: none;
+    border-bottom: 5px ridge #fdd700;
+    border-top: 5px ridge #fdd700;
+    object-fit: cover;
+    font-family: Electrolize;
+    font-weight: bolder;
+    text-align: center;
+    color: #fdd700;
+    justify-content: space-evenly;
+    font-size: 20px;
+    background-image: linear-gradient(#5dbaf8, #3a7399);
+
+}
+
+.ticket {
+
+    text-decoration: none;
+    border-bottom: 5px ridge #fdd700;
+    border-top: 5px ridge #fdd700;
+    object-fit: cover;
+    width: 50%;
+    font-family: Electrolize;
+    font-weight: bolder;
+    text-align: center;
+    color: #fdd700;
+    justify-content: space-evenly;
+    font-size: 20px;
+    background-image: linear-gradient(#5dbaf8, #3a7399);
+
+}
+
+.ticket h2 {
+
+    font-size: 50;
+    padding: 30px;
+
+}
+
+.ticket h3,
+p,
+h6 {
+
+    padding: 15px;
+
+}
+
+.ticket img {
+
+    width: 100%;
+    height: auto;
+    border-left: 4px ridge #ffee00;
+
+
+}
+
+.ticket a {
+
+    text-decoration: none;
+    color: #fdd700;
+    border-bottom: 4px solid #ffee00;
+
+}
+
+.headliners h2 {
+
+    padding: 5px;
+
+}
+
+.headliners h1 {
+
+    padding: 5px;
+
+}
+
+.moreartists {
+
+    border: 7px ridge #fdd700;
+    box-shadow: -1px 1px 7px 7px #fdd700;
+    background-image: url(Images/whale3.jpg);
+    height: 800;
+    text-shadow: 2px 2px 8px #fdd700;
+
+}
+
+.moreartists h1 {
+
+    padding: 15px;
+
+}
+
+.moreartists h2 {
+
+    font-size: 60px;
+    padding: 20px;
+
+}
+
+.ticketinfo {
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.galleryheader {
+
+    font-size: 4vw;
+    color: #fdd700;
+    font-family: electrolize;
+    text-align: center;
+    border: #fdd700 ridge 5px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3a7399a9;
+    box-shadow: -1px 1px 7px 7px #fdd700;
+}
+
+.gallery {
+    margin-top: 30px;
+    font-size: 100px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.gallery img {
+
+    width: 30%;
+    border: #fdd700 5px ridge;
+
+
+}
+
+.pagebreak {
+    background-color: #3a7399;
+    height: 200px;
+    font-family: electrolize;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 25px;
+    color: #fdd700;
+    box-shadow: -1px 1px 7px 7px #fdd700;
+    text-shadow: 2px 2px 8px #fdd700;
+    border: 5px ridge #fdd700;
+    background-image: linear-gradient(#5dbaf8, #3a7399);
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.imagelinks {
+
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 50px solid #ffee0000;
+    border-top: 50px solid #ffee0000;
+    justify-content: center;
+
+}
+
+.image {
+    box-shadow: -1px 1px 7px 7px #fdd700;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 30px;
+    border: 5px ridge #ffee00;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+
+}
+
+.image a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: #fdd700;
+    font-family: electrolize;
+    text-shadow: 2px 2px 8px #fdd700;
+    background-color: rgba(0, 0, 0, 0.671);
+    text-decoration: none;
+
+}
+
+.image a:hover {
+
+    color: #ffe600;
+    text-decoration: underline;
+    filter: brightness(125%);
+}
+
+
+.footer {
+    display: block;
+    padding: 10px;
+    font-family: electrolize;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 0.5s;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-top: #fdd700 ridge 5px;
+    border-bottom: #fdd700 ridge 5px;
+    background-color: #3a7399bd;
+
+}
+
+.info1 {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.info1 h3 {
+
+    font-size: 30px;
+    padding-bottom: 20px;
+
+}
+
+.info1 a {
+
+    text-decoration: none;
+    color: #000000;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.info1 a:hover {
+
+    text-decoration: underline;
+
+}
+
+.info2 {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.info2 h3 {
+
+    font-size: 30px;
+    padding-bottom: 20px;
+
+}
+
+.info2 a {
+
+    text-decoration: none;
+    color: #000000;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.info2 a:hover {
+
+    text-decoration: underline;
+
+}
+
+.socials img {
+
+    transition: 0.7s;
+    color: #fdd700;
+    height: 100px;
+    margin-top: 65px;
+    margin-right: 5px;
+
+}
+
+.socials img:hover {
+
+    transform: scale(1.5) rotate(-10deg);
+    transition: 0.7s;
+}
+
+.newsletter {
+
+    font-size: 20px;
+
+
+}
+
+.inputemail {
+
+    font-family: electrolize;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #fdd700;
+    border-radius: 10px;
+}
+
+.inputemail:focus {
+    background-color: #ffffff;
+}
+
+.inputemail::placeholder {
+
+    font-style: electrolize;
+
+}
+
+.sendemail {
+    font-family: electrolize;
+
+    padding: 6px;
+    background-color: #3a7399;
+    border: 3px solid #fdd700;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.sendemail:hover {
+    color: white;
+    filter: brightness(150%);
+}
+
+.artisthero {
+
+    height: 300px;
+    font-family: electrolize;
+    color: #fdd700;
+    background-image: url(images/oceanfloor2.jpg);
+    text-align: center;
+    padding: 20px;
+    border-bottom: ridge 5px #fdd700;
+
+}
+
+.artisthero h1 {
+
+    font-size: 6vw;
+    padding-bottom: 20px;
+
+}
+
+.artisthero h2 {
+
+    font-size: 3vw;
+
+}
+
+.artistcontent {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #3a739971;
+
+}
+
+/*----------------------------------------------*/
+/* artists page */
+/*----------------------------------------------*/
+
+.artistinfo {
+    width: 30%;
+    background-image: linear-gradient(#3a7399, #5dbaf8);
+
+    padding: 30px;
+    border: #fdd700 ridge 4px;
+
+}
+
+.artistinfo img {
+    width: 100%;
+    height: 300px;
+    border: #fdd700 solid 3px;
+    box-shadow: -1px 1px 1px 1px #fdd700;
+    transition: 0.5s;
+    filter: brightness(70%);
+
+}
+
+.artistinfo:hover img {
+    filter: none;
+    transform: scale(1.1);
+    filter: brightness(105%);
+
+}
+
+.artistdetails {
+    text-align: center;
+}
+
+.artistdetails h2 {
+    padding-top: 20px;
+    font-family: poor story;
+    font-size: 40px;
+    color: #fdd700;
+
+}
+
+.artistdetails p {
+    font-family: poor story;
+    padding-top: 30px;
+    font-size: 20px;
+
+}
+
+@media screen and (max-width:1280px) {
+
+    /* Navigation */
+
+    .navigation {
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 90px;
+        overflow: hidden;
+        transition: 1s;
+        background-color: #3a7399a8;
+    }
+
+    .active {
+        height: 600px;
+
+    }
+
+    .hamburger {
+        display: block !important;
+
+    }
+
+    /* Navigation */
+
+
+
+    /* Tickets */
+
+    .ticket {
+
+        display: none;
+
+    }
+
+    .ticket2 {
+
+        display: block;
+
+    }
+
+    /* Tickets */
+
+
+
+    /* Artists List */
+
+    .headliners {
+        display: none;
+
+    }
+
+    .moreartists {
+
+        display: none;
+
+
+    }
+
+    .fulllineup {
+
+        display: block;
+        background-image: url(images/whale3.jpg);
+        border: 7px ridge #fdd700;
+        box-shadow: -1px 1px 7px 7px #fdd700;
+        text-align: center;
+        font-size: 3vw;
+        font-weight: bolder;
+        margin-bottom: 50px;
+        text-shadow: 2px 2px 8px #fdd700;
+        box-shadow: -1px 1px 7px 7px #fdd700;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    .fulllinemore {
+
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+
+    /* Artist List */
+
+
+
+    /* Page Break */
+
+    .pagebreak {
+        font-size: 5vw;
+        text-align: center;
+        border-right: none;
+        border-left: none;
+
+
+    }
+
+    /* Page Break */
+
+    /* Gallery */
+
+    .galleryheader {
+
+        border-top: #fdd700 ridge 5px;
+        border-bottom: #fdd700 ridge 5px;
+        border-left: none;
+        border-right: none;
+    }
+
+    /* Gallery */
+
+
+
+    /* Artist Page */
+
+    .artistinfo {
+
+
+        margin-left: auto;
+        margin-right: auto;
+        width: 48%;
+
+
+    }
+
+    .artistinfo img {
+        object-fit: cover;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+
+
+    }
+
+    .artistcontent {
+
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
+
+    .artisthero {
+
+        height: 200px;
+
+    }
+
+    .artisthero h1 {
+
+        font-size: 6vw;
+        padding-bottom: 20px;
+
+    }
+
+    .artisthero h2 {
+
+        font-size: 3vw;
+
+    }
+
+    /* Artist Page */
+
+
+
+    /* Footer */
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .newsletter {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .newsletter h2 {
+        font-size: 6vw;
+    }
+
+    .newsletter p {
+        font-size: 3vw;
+    }
+
+    .info1 {
+        padding-bottom: 20px;
+    }
+
+    .socials {
+
+        display: flex;
+
+    }
+
+    /* Footer */
+
+
+
+    /* Carousel */
+
+    iframe {
+
+
+        height: 60%;
+
+    }
+
+    /* Carousel */
+
+
+
+    /* Timer */
+
+    .timer {
+
+        font-size: 3vw;
+
+    }
+
+    /* Timer */
+
+
+
+    /* Mainpage */
+
+    .mainpage {
+
+        height: 800;
+
+    }
+
+    .mainpage h1 {
+
+        font-size: 9vw;
+        padding: 10px;
+
+    }
+
+    .mainpage h2 {
+
+        font-size: 8vw;
+    }
+
+    .mainpage p {
+
+        font-size: 7vw;
+    }
+
+    .mainpage a {
+
+        font-size: 6vw;
+
+
+    }
+
+    /* Mainpage */
+
+
+
+    .introtext h1   {
+
+       font-size: 4vw;
+       
+    
+    }
+    
+  
+    
+ 
+}
+
+
+
+@media screen and (max-width:800px) {
+
+    .artistinfo {
+
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .artisthero {
+
+        height: 150px;
+
+    }
+
+    .artisthero h1 {
+
+        font-size: 7vw;
+
+    }
+
+    .pagebreak {
+
+        height: 150px;
+
+    }
+
+    .imagelinks {
+
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: 50px solid #ffee0000;
+        border-top: 50px solid #ffee0000;
+        justify-content: center;
+
+    }
+
+    .image {
+        box-shadow: -1px 1px 7px 7px #fdd700;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 30px;
+        border: 5px ridge #ffee00;
+        font-size: 30px;
+        position: relative;
+        text-align: center;
+        width: 80%;
+
+    }
+
+    .image img {
+
+        width: 100%;
+
+    }
+
+    .image a {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 60px;
+        color: #fdd700;
+        font-family: electrolize;
+        text-shadow: 2px 2px 8px #fdd700;
+        background-color: rgba(0, 0, 0, 0.671);
+        text-decoration: none;
+
+    }
+
+    .image a:hover {
+
+        color: #ffe600;
+        text-decoration: underline;
+        filter: brightness(125%);
+    }
+
+}
